@@ -1,0 +1,11 @@
+# print 1 TO N Using Tail Recursion
+
+
+def func(i, n):
+    if i > n:
+        return
+    func(i + 1, n)
+    print(i)
+
+
+func(1, 5)
