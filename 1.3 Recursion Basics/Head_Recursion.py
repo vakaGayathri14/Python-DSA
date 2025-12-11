@@ -1,6 +1,9 @@
 # print "honey" 4 times using recurssion
 # Head Recursion : first we provide the work and later on fnction call
 
+# Time complexity -> O(N+1) -> O(N)
+# Space complexity ->  O(N+1) -> O(N)
+
 count = 0
 
 
