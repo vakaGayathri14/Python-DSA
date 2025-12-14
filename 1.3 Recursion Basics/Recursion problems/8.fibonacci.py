@@ -56,7 +56,7 @@ print(obj.fib(2))
 print(obj.fib(3))
 print(obj.fib(4))
 
-# other way
+# other way TC: O(2**n) sc: O(2**n)
 
 
 class Solution:
