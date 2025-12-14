@@ -73,3 +73,21 @@ print(obj.fib(1))
 print(obj.fib(2))
 print(obj.fib(3))
 print(obj.fib(4))
+
+
+# other way
+
+
+class Solution:
+    def fib(self, n: int) -> int:
+        if n <= 1:
+            return n
+        return self.fib(n - 1) + self.fib(n - 2)
+
+
+obj = Solution()
+print(obj.fib(0))
+print(obj.fib(1))
+print(obj.fib(2))
+print(obj.fib(3))
+print(obj.fib(4))
